@@ -1,0 +1,100 @@
+Script started on Thu Oct  9 21:31:40 2014
+/Users/jph/.zshrc:85: unmatched "
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mmaster[00m
+[36m⇒[00m  [K[?1h=ggit status[?1l>
+]2;git status]1;gitOn branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mmaster[00m
+[36m⇒[00m  [K[?1h=ggit remote add devleague_origin git@github.com:devleague/100-Specs.git[?1l>
+]2;git remote add devleague_origin git@github.com:devleague/100-Specs.git]1;git[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mmaster[00m
+[36m⇒[00m  [K[?1h=ggit remopte   te -vv[?1l>
+]2;git remote -vv]1;gitdevleague_origin	git@github.com:devleague/100-Specs.git (fetch)
+devleague_origin	git@github.com:devleague/100-Specs.git (push)
+origin	git@github.com:jpbatz/100-Specs.git (fetch)
+origin	git@github.com:jpbatz/100-Specs.git (push)
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mmaster[00m
+[36m⇒[00m  [K[?1h=ggit branch -vv[?1l>
+]2;git branch -vv]1;git* [32mmaster[m 51cf47d [[34morigin/master[m] selected tests up to 79 passes
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mmaster[00m
+[36m⇒[00m  [K[?1h=ggit fetch devleague_origin[?1l>
+]2;git fetch devleague_origin]1;gitremote: Counting objects: 30, done.[K
+remote: Compressing objects:   4% (1/23)   [Kremote: Compressing objects:   8% (2/23)   [Kremote: Compressing objects:  13% (3/23)   [Kremote: Compressing objects:  17% (4/23)   [Kremote: Compressing objects:  21% (5/23)   [Kremote: Compressing objects:  26% (6/23)   [Kremote: Compressing objects:  30% (7/23)   [Kremote: Compressing objects:  34% (8/23)   [Kremote: Compressing objects:  39% (9/23)   [Kremote: Compressing objects:  43% (10/23)   [Kremote: Compressing objects:  47% (11/23)   [Kremote: Compressing objects:  52% (12/23)   [Kremote: Compressing objects:  56% (13/23)   [Kremote: Compressing objects:  60% (14/23)   [Kremote: Compressing objects:  65% (15/23)   [Kremote: Compressing objects:  69% (16/23)   [Kremote: Compressing objects:  73% (17/23)   [Kremote: Compressing objects:  78% (18/23)   [Kremote: Compressing objects:  82% (19/23)   [Kremote: Compressing objects:  86% (20/23)   [Kremote: Compressing objects:  91% (21/23)   [Kremote: Compressing objects:  95% (22/23)   [Kremote: Compressing objects: 100% (23/23)   [Kremote: Compressing objects: 100% (23/23), done.[K
+remote: Total 30 (delta 14), reused 23 (delta 7)[K
+Unpacking objects:   3% (1/30)   Unpacking objects:   6% (2/30)   Unpacking objects:  10% (3/30)   Unpacking objects:  13% (4/30)   Unpacking objects:  16% (5/30)   Unpacking objects:  20% (6/30)   Unpacking objects:  23% (7/30)   Unpacking objects:  26% (8/30)   Unpacking objects:  30% (9/30)   Unpacking objects:  33% (10/30)   Unpacking objects:  36% (11/30)   Unpacking objects:  40% (12/30)   Unpacking objects:  43% (13/30)   Unpacking objects:  46% (14/30)   Unpacking objects:  50% (15/30)   Unpacking objects:  53% (16/30)   Unpacking objects:  56% (17/30)   Unpacking objects:  60% (18/30)   Unpacking objects:  63% (19/30)   Unpacking objects:  66% (20/30)   Unpacking objects:  70% (21/30)   Unpacking objects:  73% (22/30)   Unpacking objects:  76% (23/30)   Unpacking objects:  80% (24/30)   Unpacking objects:  83% (25/30)   Unpacking objects:  86% (26/30)   Unpacking objects:  90% (27/30)   Unpacking objects:  93% (28/30)   Unpacking objects:  96% (29/30)   Unpacking objects: 100% (30/30)   Unpacking objects: 100% (30/30), done.
+From github.com:devleague/100-Specs
+ * [new branch]      dlmaster   -> devleague_origin/dlmaster
+ * [new branch]      master     -> devleague_origin/master
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mmaster[00m
+[36m⇒[00m  [K[?1h=ggit branch --track devleague_master devleague_origin/master[?1l>
+]2;git branch --track devleague_master devleague_origin/master]1;gitBranch devleague_master set up to track remote branch master from devleague_origin.
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mmaster[00m
+[36m⇒[00m  [K[?1h=ggit branch -vv[?1l>
+]2;git branch -vv]1;git  devleague_master[m 182934d [[34mdevleague_origin/master[m] fixes step 4 planets can now be either cased
+* [32mmaster          [m 51cf47d [[34morigin/master[m] selected tests up to 79 passes
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mmaster[00m
+[36m⇒[00m  [K[?1h=ggit status[?1l>
+]2;git status]1;gitOn branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mmaster[00m
+[36m⇒[00m  [K[?1h=ggit checkout devleague_master[?1l>
+]2;git checkout devleague_master]1;gitSwitched to branch 'devleague_master'
+Your branch is up-to-date with 'devleague_origin/master'.
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mdevleague_master[00m
+[36m⇒[00m  [K[?1h=ggit status[?1l>
+]2;git status]1;gitOn branch devleague_master
+Your branch is up-to-date with 'devleague_origin/master'.
+
+nothing to commit, working directory clean
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mdevleague_master[00m
+[36m⇒[00m  [K[?1h=ggit pull[?1l>
+]2;git pull]1;gitAlready up-to-date.
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mdevleague_master[00m
+[36m⇒[00m  [K[?1h=ggit checkout master[?1l>
+]2;git checkout master]1;gitSwitched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mmaster[00m
+[36m⇒[00m  [K[?1h=ggit merge devleague_master[?1l>
+]2;git merge devleague_master]1;gitAuto-merging public/js/class-definitions.js
+[?1049h[?1h=[1;40r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[40;1H"~/DevLeague/100-Specs/.git/MERGE_MSG" 7L, 259C[>c[1;1HMerge branch 'devleague_master'
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+[1m[34m~                                                                                    [9;1H~                                                                                    [10;1H~                                                                                    [11;1H~                                                                                    [12;1H~                                                                                    [13;1H~                                                                                    [14;1H~                                                                                    [15;1H~                                                                                    [16;1H~                                                                                    [17;1H~                                                                                    [18;1H~                                                                                    [19;1H~                                                                                    [20;1H~                                                                                    [21;1H~                                                                                    [22;1H~                                                                                    [23;1H~                                                                                    [24;1H~                                                                                    [25;1H~                                                                                    [26;1H~                                                                                    [27;1H~                                                                                    [28;1H~                                                                                    [29;1H~                                                                                    [30;1H~                                                                                    [31;1H~                                                                                    [32;1H~                                                                                    [33;1H~                                                                                    [34;1H~                                                                                    [35;1H~                                                                                    [36;1H~                                                                                    [37;1H~                                                                                    [38;1H~                                                                                    [39;1H~                                                                                    [1;1H[?12l[?25h[?25l[m[40;1H[K[40;1H:[?12l[?25hwq[?25l".git/MERGE_MSG" 7L, 259C written
+[?1l>[?12l[?25h[?1049lMerge made by the 'recursive' strategy.
+ public/js/100-specs.js         | 64 [32m++++++++++++++++++++++++++[m[31m---------------------[m
+ public/js/class-definitions.js |  4 [32m+[m[31m--[m
+ src/HundredSpecs.hx            | 21 [32m++++++++[m[31m--------[m
+ 3 files changed, 49 insertions(+), 40 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mmaster[00m
+[36m⇒[00m  [K[?1h=ggit status[?1l>
+]2;git status]1;gitOn branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working directory clean
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mmaster[00m
+[36m⇒[00m  [K[?1h=ggit push[?1l>
+]2;git push]1;gitCounting objects: 53, done.
+Delta compression using up to 2 threads.
+Compressing objects:   2% (1/35)   Compressing objects:   5% (2/35)   Compressing objects:   8% (3/35)   Compressing objects:  11% (4/35)   Compressing objects:  14% (5/35)   Compressing objects:  17% (6/35)   Compressing objects:  20% (7/35)   Compressing objects:  22% (8/35)   Compressing objects:  25% (9/35)   Compressing objects:  28% (10/35)   Compressing objects:  31% (11/35)   Compressing objects:  34% (12/35)   Compressing objects:  37% (13/35)   Compressing objects:  40% (14/35)   Compressing objects:  42% (15/35)   Compressing objects:  45% (16/35)   Compressing objects:  48% (17/35)   Compressing objects:  51% (18/35)   Compressing objects:  54% (19/35)   Compressing objects:  57% (20/35)   Compressing objects:  60% (21/35)   Compressing objects:  62% (22/35)   Compressing objects:  65% (23/35)   Compressing objects:  68% (24/35)   Compressing objects:  71% (25/35)   Compressing objects:  74% (26/35)   Compressing objects:  77% (27/35)   Compressing objects:  80% (28/35)   Compressing objects:  82% (29/35)   Compressing objects:  85% (30/35)   Compressing objects:  88% (31/35)   Compressing objects:  91% (32/35)   Compressing objects:  94% (33/35)   Compressing objects:  97% (34/35)   Compressing objects: 100% (35/35)   Compressing objects: 100% (35/35), done.
+Writing objects:   2% (1/35)   Writing objects:   5% (2/35)   Writing objects:   8% (3/35)   Writing objects:  11% (4/35)   Writing objects:  14% (5/35)   Writing objects:  17% (6/35)   Writing objects:  20% (7/35)   Writing objects:  22% (8/35)   Writing objects:  28% (10/35)   Writing objects:  31% (11/35)   Writing objects:  34% (12/35)   Writing objects:  40% (14/35)   Writing objects:  42% (15/35)   Writing objects:  45% (16/35)   Writing objects:  48% (17/35)   Writing objects:  51% (18/35)   Writing objects:  54% (19/35)   Writing objects:  57% (20/35)   Writing objects:  60% (21/35)   Writing objects:  62% (22/35)   Writing objects:  65% (23/35)   Writing objects:  68% (24/35)   Writing objects:  71% (25/35)   Writing objects:  74% (26/35)   Writing objects:  77% (27/35)   Writing objects:  80% (28/35)   Writing objects:  82% (29/35)   Writing objects:  85% (30/35)   Writing objects:  88% (31/35)   Writing objects:  91% (32/35)   Writing objects:  94% (33/35)   Writing objects:  97% (34/35)   Writing objects: 100% (35/35)   Writing objects: 100% (35/35), 3.96 KiB | 0 bytes/s, done.
+Total 35 (delta 16), reused 0 (delta 0)
+To git@github.com:jpbatz/100-Specs.git
+   51cf47d..f87400d  master -> master
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mmaster[00m
+[36m⇒[00m  [K[?1h=ggit status[?1l>
+]2;git status]1;gitOn branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+[1m[7m%[27m[1m[0m                                                                                     ]2;jph@Galactica-Pegasus: ~/DevLeague/100-Specs]1;..gue/100-Specs[0m[27m[24m[J[35mjph[00m[36m@[00m[33mGalactica-Pegasus[00m[31m:[00m[36m~/DevLeague/100-Specs[00m[31m|[00m[00m[32mmaster[00m
+[36m⇒[00m  [K[?1h=
+
+Script done on Thu Oct  9 21:46:38 2014
