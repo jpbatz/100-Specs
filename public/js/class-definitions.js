@@ -25,8 +25,8 @@ var sahara_animal = "The Addax";
  *
  * Declare a variable named "planets"
  * and assign the value of planets to an array containing
- * each planet in our solar system
- *
+ * each planet in our solar system, in order of distance from the sun
+ * 
  */
 var planets = ["mercury","venus","earth","mars","jupiter","saturn","uranus","neptune"];
 
