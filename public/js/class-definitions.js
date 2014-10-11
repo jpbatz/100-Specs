@@ -3,7 +3,7 @@
  * Declare a variable named "unicorn"
  *
  */
-var unicorn;
+
 
 /* Step 2
  *
@@ -11,7 +11,7 @@ var unicorn;
  * then assign the value of phone to "Atari"
  *
  */
-var videogame_system = "Atari";
+
 
 /* Step 3
  *
@@ -19,16 +19,16 @@ var videogame_system = "Atari";
  * and assign the value of sahara_animal to "The Addax"
  *
  */
-var sahara_animal = "The Addax";
+
 
 /* Step 4
  *
  * Declare a variable named "planets"
  * and assign the value of planets to an array containing
- * each planet in our solar system, in order of distance from the sun
- * 
+ * each planet in our solar system
+ *
  */
-var planets = ["mercury","venus","earth","mars","jupiter","saturn","uranus","neptune"];
+
 
 
 /* Step 5
@@ -38,7 +38,7 @@ var planets = ["mercury","venus","earth","mars","jupiter","saturn","uranus","nep
  * each galilean moon of Jupiter
  *
  */
-var galilean_moons = ["Io","Europa","Ganymede","Callisto"];
+
 
 
 /* Step 6 φ
@@ -47,7 +47,7 @@ var galilean_moons = ["Io","Europa","Ganymede","Callisto"];
  * and assign the value of golden_ratio to 1.61803398874
  *
  */
-var golden_ratio = 1.61803398874;
+
 
 
 /* Step 7
@@ -56,7 +56,7 @@ var golden_ratio = 1.61803398874;
  * and assign the value of earths_water_composition to 0.71
  *
  */
-var earths_water_composition = 0.71;
+
 
 /* Step 8
  *
@@ -64,7 +64,7 @@ var earths_water_composition = 0.71;
  * and assign the value of club_name to "Fight Club"
  *
  */
-var club_name = "Fight Club";
+
 
 
 /* Step 9
@@ -77,11 +77,7 @@ var club_name = "Fight Club";
  *   unknown => undefined
  */
 
-var Gender = {
-  female: "female",
-  male: "male",
-  unknown: undefined
-};
+
 
 /* Step 10
  *
@@ -96,12 +92,6 @@ var Gender = {
  * 
  */
 
-var princess_leia = {
-  name: "Leia Organa",
-  money: 890,
-  age: 20,
-  gender: Gender.female
-};
 
 
 
@@ -117,12 +107,7 @@ var princess_leia = {
  * 
  */
 
-var domains = {
-  "ycombinator.com": '198.41.190.47',
-  "laughingsquid.com": '162.159.247.97',
-  "slumlordhosting.com": '198.61.179.126',
-  "jsonformatter.curiousconcept.com": '104.28.5.70'
-};
+
 
 
 /* Step 12
@@ -140,16 +125,7 @@ var domains = {
  *   Links      => "GPLv2+"
  * 
  */
-var browsers = {
-   Chrome     : "google",
-   Chromium   : "google",
-   Safari     : "apple",
-   Opera      : "opera",
-   Firefox    : "mozilla",
-   Sleipnir   : "fenrir",
-   Konqueror  : "KDE",
-   Links      : "GPLv2+"
-};
+
 
 
 
@@ -169,18 +145,7 @@ var browsers = {
  *  isDouble  => true
  *
  */
-var rainbow = {
-  colors : {
-    red       : "#F0280A",
-    orange    : "#FF8800",
-    yellow    : "#FFDD00",
-    green     : "#51AB0C",
-    blue      : "#1593ED",
-    indigo    : "#5215ED",
-    violet    : "#A915ED"
-  },
-  isDouble: true
-};
+
 
 
 /* Step 14
@@ -285,9 +250,7 @@ var rainbow = {
  * @return {String}
  *
  */
-var sahara_river = function() {
-  return "Nile River";
-};
+
 
 /* Step 21
  *
@@ -505,79 +468,55 @@ var sahara_river = function() {
  * @param {string} species The animal species
  * @param {string} gender  male or female
  */
-function Animal(species, gender) {
-  this.species = species;
-  this.gender = gender;
-}
+
 /**
  * Vehicle class
  * @param {string} make The vehicle's make
  * @param {string} model The vehicle's model
  */
-function Vehicle(make, model) {
-  this.make = make;
-  this.model = model;
-}
+
 /**
  * Shape class
  * @param {number} sides The number of sides, should be greater than 3
  */
-function Shape(sides) {
-  this.sides = sides;
-}
+
 /**
  * Box class
  * @param {anything} contents The contents of the box
  * @param {boolean} isOpen     Whether the box is opened or closed
  */
-function Box(contents, isOpen) {
-  this.contents = contents;
-  this.isOpen = isOpen;
-}
+
 /**
  * Door class
  * @param {boolean} isOpen Whether the door is opened or closed
  */
-function Door(isOpen) {
-  this.isOpen = isOpen;
-}
+
 /**
  * Shoe class
  * @param {number} size  The shoe size
  * @param {string} color The shoe color
  */
-function Shoe(size, color) {
-  this.size = size;
-  this.color = color;
-}
+
 /**
  * House class
  * @param {number} stories How many stories tall the house is
  */
-function House(stories) {
-  this.stories = stories;
-}
+
 /**
  * Lightbulb class
  * @param {boolean} isOn Whether the light is on or off
  */
-function Lightbulb(isOn) {
-  this.isOn = isOn;
-}
+
 /**
  * Cookie class
  * @param {string} flavor The cookie's flavor
  */
-function Cookie(flavor) {
-  this.flavor = flavor;
-}
+
 /**
  * Meal class
  * @param {Array} foods All the foods in the meal
  */
-function Meal(foods) {
-  this.foods = foods;
-}
+
 /* Step 60
  *
  * Create a new instance of
@@ -585,44 +524,44 @@ function Meal(foods) {
  */
 
 // Create 2 different species of animals
-var george = new Animal("Monkey", "male");
-var nemo = new Animal("Fish", "male");
+var george;
+var nemo;
 
 // Create 2 different vehicles
-var civic = new Vehicle("Honda", "Civic");
-var forte = new Vehicle("KIA", "Forte");
+var civic;
+var forte;
 
 // Create 2 shapes with different numbers of sides
-var square = new Shape(4);
-var hexagon = new Shape(6);
+var square;
+var hexagon;
 
 // Create 2 boxes
-var catBox = new Box(new Animal("Cat"), true);
-var christmasPresent = new Box(new Animal("Cat", "female"), false);
+var catBox;
+var christmasPresent;
 
 // Create 2 doors
-var automaticDoor = new Door(true);
-var bankVault = new Door(false);
+var automaticDoor;
+var bankVault;
 
 // Create 2 shoes
-var rubySlippers = new Shoe(7, "red");
-var dressShoes = new Shoe(10, "black");
+var rubySlippers;
+var dressShoes;
 
 // Create 2 houses
-var singleStory = new House(1);
-var twoStory = new House(2);
+var singleStory;
+var twoStory;
 
 // Create 2 lightbulbs
-var incandescent = new Lightbulb(true);
-var halogen = new Lightbulb(false);
+var incandescent;
+var halogen;
 
 // Create 2 cookies of different flavors
-var chocolateChip = new Cookie("chocolate");
-var gingerbread = new Cookie("gingerbread");
+var chocolateChip;
+var gingerbread;
 
 // Create 2 different meals
-var breakfast = new Meal("cereal and milk");
-var dinner = new Meal("fish and vegetables");
+var breakfast;
+var dinner;
 
 /* Step 80
  *
