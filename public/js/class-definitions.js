@@ -22,8 +22,7 @@ var videogame_system = "Atari";
 var sahara_animal = "The Addax";
 
 /* Step 4
- *
- * Declare a variable named "planets"
+ * * Declare a variable named "planets"
  * and assign the value of planets to an array containing
  * each planet in our solar system
  *
@@ -689,7 +688,7 @@ Vehicle.prototype.drive = function(streetName) {
   if((streetName) && typeof streetName == "string") {
     return "Driving on " + streetName;
   } else {
-    return "Driving forward.";
+    return "Driving forward"; // no "."
   }
 };
 
@@ -710,7 +709,46 @@ Vehicle.prototype.drive = function(streetName) {
  * Any other number => "Could not determine type"
  *
  */
-
+Shape.prototype.getType = function() {
+  var result;
+  switch(this.sides) {
+    case 3: {
+      result = "triangle";
+      break;
+    }
+    case 4 : {
+      result = "quadrilateral";
+      break;
+    }
+    case 5 : {
+      result = "pentagon";
+      break;
+    }
+    case 6 : {
+      result = "hexagon";
+      break;
+    }
+    case 7 : {
+      result = "heptagon";
+      break;
+    }
+    case 8 : {
+      result = "octagon";
+      break;
+    }
+    case 9 : {
+      result = "nonagon";
+      break;
+    }
+    case 10 : {
+      result = "decagon";
+      break;
+    }
+    default:
+      result = "Could not determine type";
+  }
+  return result;
+};
 
 /* Step 84
  *
@@ -720,7 +758,14 @@ Vehicle.prototype.drive = function(streetName) {
  * Return true if openBox opens the box, false otherwise.
  *
  */
-
+Box.prototype.openBox = function() {
+  if(this.isOpen === false) {
+    this.isOpen = true;
+    return true;
+  } else {
+    return false;
+  }
+};
 
  /* Step 85
  *
@@ -729,7 +774,15 @@ Vehicle.prototype.drive = function(streetName) {
  * Return true if openClose opens the door, false if openClose closes the door.
  *
  */
-
+Door.prototype.openClose = function () {
+  if(this.isOpen === true) {
+    this.isOpen = false;
+    return false;
+  } else {
+    this.isOpen = true;
+    return true;
+  } 
+};
 
 /* Step 86
  *
@@ -737,7 +790,9 @@ Vehicle.prototype.drive = function(streetName) {
  * the color and size of the shoe ("Found red shoes of size 8").
  *
  */
-
+Shoe.prototype.findShoes = function () {
+  return "Found " + this.color + " shoes of size " + this.size;
+};
 
  /* Step 87
  *
@@ -747,7 +802,13 @@ Vehicle.prototype.drive = function(streetName) {
  * storiesTooTall, return true, else return false.
  *
  */
-
+House.prototype.isATallStory = function (storiesTooTall) {
+  if(this.stories >= storiesTooTall) {
+    return true;
+  } else {
+    return false;
+  }
+};
 
  /* Step 88
  *
@@ -758,7 +819,15 @@ Vehicle.prototype.drive = function(streetName) {
  * Return true if isOn is true, false otherwise.
  *
  */
-
+Lightbulb.prototype.flipSwitch = function (on) {
+  if(on === "on") {
+    this.isOn = true;
+    return true;
+  } else {
+    this.isOn = false;
+    return false;
+  }
+};
 
  /* Step 89
  *
@@ -767,7 +836,13 @@ Vehicle.prototype.drive = function(streetName) {
  * and the dayOfTheWeek is "Monday", return true.  Else return false.
  *
  */
-
+Cookie.prototype.swipedByCookieMonster = function (dayOfTheWeek) {
+  if(this.flavor === "chocolate" && dayOfTheWeek === "Monday") {
+    return true;
+  } else {
+    return false;
+  }
+};
 
  /* Step 90
  *
