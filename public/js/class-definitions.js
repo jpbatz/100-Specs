@@ -881,9 +881,9 @@ Meal.prototype.containsJunkFood = function () {
  * and assign the values to each variable below.
  *
  */
-var warmBloodedAnimal;
-var coldBloodedAnimal;
-var notWarmOrColdAnimal;
+var warmBloodedAnimal = nemo.isWarmBlooded();
+var coldBloodedAnimal = george.isWarmBlooded();
+var notWarmOrColdAnimal = (new Animal("Dinosaur", "female")).isWarmBlooded();
 
 
 /* Step 92
@@ -892,8 +892,8 @@ var notWarmOrColdAnimal;
  * and assign the values to each variable below.
  *
  */
-var streetDriving;
-var forwardDriving;
+var streetDriving = civic.drive("Broadway");
+var forwardDriving = forte.drive();
 
 
  /* Step 93
@@ -902,8 +902,8 @@ var forwardDriving;
  * and assign the values to each variable below.
  *
  */
-var decagon;
-var polygon;
+var decagon = (new Shape(10).getType());
+var polygon = (new Shape(11).getType());
 
 
 /* Step 94
@@ -912,8 +912,8 @@ var polygon;
  * and assign the values to each variable below.
  *
  */
-var openAClosedBox;
-var closeAnOpenBox;
+var openAClosedBox = catBox.openBox();
+var closeAnOpenBox = christmasPresent.openBox();
 
 
  /* Step 95
@@ -922,8 +922,8 @@ var closeAnOpenBox;
  * and assign the values to each variable below.
  *
  */
-var openAClosedDoor;
-var closeAnOpenDoor;
+var openAClosedDoor = automaticDoor.openClose();
+var closeAnOpenDoor = bankVault.openClose();
 
 
 /* Step 96
@@ -932,8 +932,8 @@ var closeAnOpenDoor;
  * and assign the values to each variable below.
  *
  */
-var redShoesSize7;
-var blackShoesSize10;
+var redShoesSize7 = rubySlippers.findShoes();
+var blackShoesSize10 = dressShoes.findShoes();
 
 
  /* Step 97
@@ -942,8 +942,8 @@ var blackShoesSize10;
  * and assign the values to each variable below.
  *
  */
-var farTooTallAStory;
-var shortStory;
+var farTooTallAStory = twoStory.isATallStory(2);
+var shortStory = singleStory.isATallStory(1);
 
 
  /* Step 98
@@ -952,8 +952,8 @@ var shortStory;
  * and assign the values to each variable below.
  *
  */
-var kitchenLightsOn;
-var porchLightsOff;
+var kitchenLightsOn = incandescent.flipSwitch(true);
+var porchLightsOff = halogen.flipSwitch(false);
 
 
  /* Step 99
@@ -962,8 +962,8 @@ var porchLightsOff;
  * and assign the values to each variable below.
  *
  */
-var cookieMonsterPwns;
-var cookieMonsterBlocked;
+var cookieMonsterPwns = chocolateChip.swipedByCookieMonster("Monday");
+var cookieMonsterBlocked = gingerbread.swipedByCookieMonster("Tuesday");
 
 
  /* Step 100
@@ -972,5 +972,5 @@ var cookieMonsterBlocked;
  * and assign the values to each variable below.
  *
  */
-var badForYou;
-var goodForYou;
+var badForYou = breakfast.containsJunkFood("");
+var goodForYou = dinner.containsJunkFood("");
