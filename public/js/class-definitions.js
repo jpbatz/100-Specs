@@ -913,6 +913,9 @@ var polygon = (new Shape(11)).getType();
  */
 var openAClosedBox = christmasPresent.openBox();
 var closeAnOpenBox = catBox.openBox();
+// this is required to get step 67, above, to pass
+
+christmasPresent.isOpen = false;
 
 
 /* Step 95
@@ -929,8 +932,8 @@ var closeAnOpenDoor = bankVault.openClose();
  *
  * Call the findShoes method on two Shoe instances
  * and assign the values to each variable below.
- *
  */
+ 
  
 var redShoesSize7 = rubySlippers.findShoes();
 var blackShoesSize10 = dressShoes.findShoes();
