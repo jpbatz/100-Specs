@@ -914,7 +914,9 @@ var polygon = (new Shape(11)).getType();
 var openAClosedBox = christmasPresent.openBox();
 var closeAnOpenBox = catBox.openBox();
 // this is required to get step 67, above, to pass
-
+// christmasPresent is declared as a global var, 
+// so global vars are executed first, then the 
+// tests.  that's why 
 christmasPresent.isOpen = false;
 
 
